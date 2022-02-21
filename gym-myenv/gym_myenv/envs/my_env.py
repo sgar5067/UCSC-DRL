@@ -3,24 +3,23 @@ from gym import error, spaces, utils
 from gym.utils import seeding
 
 class MyEnv(gym.Env):
-    metadata = {'render.modes': ['human', 'rgb_array']}
+  metadata = {'render.modes': ['human', 'rgb_array']}
 
-    def __init__(self):
-        # TODO
+  def __init__(self):
+    pass
 
-    def step(self, u):
-        # TODO   
-		
-	def reset(self):
-        # TODO   
+  def step(self, u):
+   pass   
 
-	def render(self, mode='human'):
-        # TODO   
-        if mode == 'human':
-		    # Do something
-		elif mode == 'rgb_array':
-		    # raw image
-			# numpy image
+  def reset(self):
+    pass   
+
+  def render(self, mode='human'):
+    # pass   
+    if mode == 'human':
+      # Do something
+    elif mode == 'rgb_array':
+      # Do something else
 			
-    def close(self):
-        # TODO
+  def close(self):
+    pass
