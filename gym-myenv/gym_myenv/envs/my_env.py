@@ -11,15 +11,15 @@ class MyEnv(gym.Env):
   def step(self, u):
    pass   
 
-  def reset(self):
+  def reset(self, **kwargs):
     pass   
 
   def render(self, mode='human'):
     # pass   
     if mode == 'human':
-      # Do something
+      pass
     elif mode == 'rgb_array':
-      # Do something else
+      pass
 			
   def close(self):
     pass
