@@ -15,11 +15,11 @@ class MyEnv(gym.Env):
     pass   
 
   def render(self, mode='human'):
-    # pass   
-    if mode == 'human':
-      pass
-    elif mode == 'rgb_array':
-      pass
+    pass   
+#     if mode == 'human':
+#       pass
+#     elif mode == 'rgb_array':
+#       pass
 			
   def close(self):
     pass
