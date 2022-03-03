@@ -9,7 +9,7 @@ class MyEnv(gym.Env):
     pass
 
   def step(self, u):
-   pass   
+    pass   
 
   def reset(self, **kwargs):
     pass   
